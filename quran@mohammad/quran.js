@@ -6360,15 +6360,15 @@ return ayat[rand];
 }
 farsiNum=function(enNum){
 strNum=String(enNum);
-strNum=strNum.replace('0','۰');
-strNum=strNum.replace('1','۱');
-strNum=strNum.replace('2','۲');
-strNum=strNum.replace('3','۳');
-strNum=strNum.replace('4','۴');
-strNum=strNum.replace('5','۵');
-strNum=strNum.replace('6','۶');
-strNum=strNum.replace('7','۷');
-strNum=strNum.replace('8','۸');
-strNum=strNum.replace('9','۹');
+strNum=strNum.split('0').join('۰');
+strNum=strNum.split('1').join('۱');
+strNum=strNum.split('2').join('۲');
+strNum=strNum.split('3').join('۳');
+strNum=strNum.split('4').join('۴');
+strNum=strNum.split('5').join('۵');
+strNum=strNum.split('6').join('۶');
+strNum=strNum.split('7').join('۷');
+strNum=strNum.split('8').join('۸');
+strNum=strNum.split('9').join('۹');
 return strNum;
 }
