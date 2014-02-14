@@ -21,7 +21,7 @@ function init() {
                           x_fill: true,
                           y_fill: false,
                           track_hover: true });
-    let label = new St.Label({text:"Aye Of Quran" });
+    let label = new St.Label({text:" quran " });
     button.set_child(label);
     button.connect('button-press-event', _showAye);
     _showAye();
